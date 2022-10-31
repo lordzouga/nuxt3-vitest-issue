@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.13-27781436.1f6b3be",
+    "jsdom": "^20.0.2",
+    "nuxt": "3.0.0-rc.12",
+    "vitest": "^0.24.4"
+  }
+}
